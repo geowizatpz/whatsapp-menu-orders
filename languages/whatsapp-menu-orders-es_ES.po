@@ -1,0 +1,1884 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WhatsApp Menu & Orders 0.1.0\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: tools/i18n-es.py\n"
+
+#: plugin
+msgid "WhatsApp Menu & Orders"
+msgstr "WhatsApp Menú y Pedidos"
+
+#: plugin
+msgid "https://example.com/whatsapp-menu-orders"
+msgstr ""
+
+#: plugin
+msgid "A one-page food menu with extras and per-item notes that sends the finished order to WhatsApp. No checkout, no payment gateway: cash or bank transfer, agreed in the chat."
+msgstr "Un menú de una sola página con extras y notas por platillo que envía el pedido listo a WhatsApp. Sin checkout ni pasarela de pago: efectivo o transferencia, acordados en el chat."
+
+#: plugin
+msgid "Local Food Delivery"
+msgstr ""
+
+#: plugin
+msgid "Spanish name"
+msgstr "Nombre en español"
+
+#: plugin
+msgid "Shown instead of the name above when the interface language is Spanish."
+msgstr ""
+
+#: plugin
+msgid "Spanish description"
+msgstr "Descripción en español"
+
+#: plugin
+msgid "Menu item details"
+msgstr "Detalles del platillo"
+
+#: plugin
+msgid "Default"
+msgstr "Predeterminado"
+
+#: plugin
+msgid "Hot / spicy"
+msgstr ""
+
+#: plugin
+msgid "New"
+msgstr "Nuevo"
+
+#: plugin
+msgid "Vegetarian"
+msgstr ""
+
+#: plugin
+msgid "Price"
+msgstr "Precio"
+
+#: plugin
+msgid "Per unit. When a sale price is lower, the menu shows this price crossed out."
+msgstr ""
+
+#: plugin
+msgid "Sale price"
+msgstr "Precio de oferta"
+
+#: plugin
+msgid "0 = no sale. When lower than the price the menu shows the regular price crossed out."
+msgstr ""
+
+#: plugin
+msgid "Available on the menu"
+msgstr ""
+
+#: plugin
+msgid "Turn off to hide a sold out item without deleting it."
+msgstr ""
+
+#: plugin
+msgid "Badges"
+msgstr "Etiquetas"
+
+#: plugin
+msgid "Small labels shown on the menu card, for example \"Spicy\" or \"New\"."
+msgstr ""
+
+#: plugin
+msgid "+ Add badge"
+msgstr ""
+
+#: plugin
+msgid "Optional. Used when the menu language is Spanish."
+msgstr ""
+
+#: plugin
+msgid "Optional. Replaces the description when the menu language is Spanish."
+msgstr ""
+
+#: plugin
+msgid "Extras and option groups"
+msgstr ""
+
+#: plugin
+msgid "Add groups such as Size, Extras or Drinks. Each group can be a single choice (radio) or several choices (checkboxes). Prices are added to the item price and may be negative."
+msgstr ""
+
+#: plugin
+msgid "Min and max limit how many options a customer may pick. Max 0 means no limit."
+msgstr ""
+
+#: plugin
+msgid "Insert preset"
+msgstr "Insertar plantilla"
+
+#: plugin
+msgid "Choose a saved preset…"
+msgstr ""
+
+#: plugin
+msgid "Manage presets"
+msgstr ""
+
+#: plugin
+msgid "Adds a copy of the preset to this item."
+msgstr ""
+
+#: plugin
+msgid "No saved presets yet. Create reusable groups under <a href=\"%s\">Settings → Extras</a>."
+msgstr ""
+
+#: plugin
+msgid "Badge text"
+msgstr ""
+
+#: plugin
+msgid "Remove"
+msgstr "Quitar"
+
+#: plugin
+msgid "No option groups yet."
+msgstr ""
+
+#: plugin
+msgid "+ Add option group"
+msgstr ""
+
+#: plugin
+msgid "Option group"
+msgstr "Grupo de opciones"
+
+#: plugin
+msgid "Remove group"
+msgstr "Quitar grupo"
+
+#: plugin
+msgid "Group label"
+msgstr ""
+
+#: plugin
+msgid "e.g. Choose a size"
+msgstr ""
+
+#: plugin
+msgid "Selection"
+msgstr ""
+
+#: plugin
+msgid "Several choices (checkboxes)"
+msgstr ""
+
+#: plugin
+msgid "One choice (radio)"
+msgstr ""
+
+#: plugin
+msgid "Required"
+msgstr "Obligatorio"
+
+#: plugin
+msgid "Min"
+msgstr "Mín."
+
+#: plugin
+msgid "Max"
+msgstr "Máx."
+
+#: plugin
+msgid "0 = no limit"
+msgstr ""
+
+#: plugin
+msgid "+ Add option"
+msgstr ""
+
+#: plugin
+msgid "Prices are added to the item price (e.g. -%s)."
+msgstr ""
+
+#: plugin
+msgid "Option label"
+msgstr ""
+
+#: plugin
+msgid "Sold out"
+msgstr "Agotado"
+
+#: plugin
+msgid "Title"
+msgstr ""
+
+#: plugin
+msgid "Photo"
+msgstr "Foto"
+
+#: plugin
+msgid "Category"
+msgstr "Categoría"
+
+#: plugin
+msgid "Available"
+msgstr "Disponible"
+
+#: plugin
+msgid "Order"
+msgstr "Pedido"
+
+#: plugin
+msgid "Unavailable"
+msgstr ""
+
+#: plugin
+msgid "Drag to reorder"
+msgstr "Arrastra para ordenar"
+
+#: plugin
+msgid "Saving menu order…"
+msgstr ""
+
+#: plugin
+msgid "Menu order saved."
+msgstr ""
+
+#: plugin
+msgid "The menu order could not be saved. Reload the page and try again."
+msgstr ""
+
+#: plugin
+msgid "Drag rows by the handle in the Order column to set the order items appear in your menu."
+msgstr ""
+
+#: plugin
+msgid "Security check failed. Reload the page and try again."
+msgstr ""
+
+#: plugin
+msgid "Sorry, you are not allowed to reorder menu items."
+msgstr ""
+
+#: plugin
+msgid "No menu items were sent."
+msgstr ""
+
+#: plugin
+msgid "WhatsApp Menu & Orders:"
+msgstr "WhatsApp Menú y Pedidos:"
+
+#: plugin
+msgid "Add the restaurant WhatsApp number so orders can be sent."
+msgstr "Agrega el número de WhatsApp del restaurante para poder enviar pedidos."
+
+#: plugin
+msgid "Open settings"
+msgstr "Abrir ajustes"
+
+#: plugin
+msgid "Elementor is not active. The [wfo_menu] shortcode works on any page, and the Elementor widget appears once Elementor is activated."
+msgstr "Elementor no está activo. El shortcode [wfo_menu] funciona en cualquier página y el widget de Elementor aparece al activarlo."
+
+#: plugin
+msgid "Code"
+msgstr ""
+
+#: plugin
+msgid "Date / time"
+msgstr ""
+
+#: plugin
+msgid "Customer"
+msgstr "Cliente"
+
+#: plugin
+msgid "Phone"
+msgstr "Teléfono"
+
+#: plugin
+msgid "Type"
+msgstr "Tipo"
+
+#: plugin
+msgid "Payment"
+msgstr "Pago"
+
+#: plugin
+msgid "Total"
+msgstr "Total"
+
+#: plugin
+msgid "Status"
+msgstr "Estado"
+
+#: plugin
+msgid "Guest"
+msgstr ""
+
+#: plugin
+msgid "Order details"
+msgstr "Detalles del pedido"
+
+#: plugin
+msgid "No details were stored for this order."
+msgstr ""
+
+#: plugin
+msgid "No items were stored for this order."
+msgstr ""
+
+#: plugin
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: plugin
+msgid "Delivery"
+msgstr "Envío"
+
+#: plugin
+msgid "—"
+msgstr ""
+
+#: plugin
+msgid "Address"
+msgstr "Dirección"
+
+#: plugin
+msgid "When"
+msgstr "Cuándo"
+
+#: plugin
+msgid "Note"
+msgstr "Nota"
+
+#: plugin
+msgid "Handled"
+msgstr "Atendido"
+
+#: plugin
+msgid "Saves with the order."
+msgstr ""
+
+#: plugin
+msgid "WhatsApp message"
+msgstr "Mensaje de WhatsApp"
+
+#: plugin
+msgid "Open in WhatsApp"
+msgstr "Abrir en WhatsApp"
+
+#: plugin
+msgid "Mark as handled"
+msgstr "Marcar como atendido"
+
+#: plugin
+msgid "Mark as new"
+msgstr "Marcar como nuevo"
+
+#: plugin
+msgid "No order was selected."
+msgstr ""
+
+#: plugin
+msgid "Sorry, you are not allowed to update this order."
+msgstr ""
+
+#: plugin
+msgid "No orders were updated."
+msgstr ""
+
+#: plugin
+msgid "%s order marked as handled."
+msgstr ""
+
+#: plugin
+msgid "%s order marked as new."
+msgstr ""
+
+#: plugin
+msgid "Export CSV"
+msgstr "Exportar CSV"
+
+#: plugin
+msgid "Sorry, you are not allowed to export orders."
+msgstr ""
+
+#: plugin
+msgid "Created"
+msgstr ""
+
+#: plugin
+msgid "Name"
+msgstr "Nombre"
+
+#: plugin
+msgid "Items"
+msgstr "Artículos"
+
+#: plugin
+msgid "Message"
+msgstr ""
+
+#: plugin
+msgid "Pickup"
+msgstr "Para llevar"
+
+#: plugin
+msgid "Cash"
+msgstr "Efectivo"
+
+#: plugin
+msgid "Bank transfer"
+msgstr "Transferencia bancaria"
+
+#: plugin
+msgid "Unknown item"
+msgstr ""
+
+#: plugin
+msgid "General"
+msgstr "General"
+
+#: plugin
+msgid "Ordering"
+msgstr "Pedidos"
+
+#: plugin
+msgid "Payments"
+msgstr "Pagos"
+
+#: plugin
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: plugin
+msgid "Design"
+msgstr "Diseño"
+
+#: plugin
+msgid "Extras"
+msgstr "Extras"
+
+#: plugin
+msgid "Sorry, you are not allowed to manage these settings."
+msgstr ""
+
+#: plugin
+msgid "Food Orders settings"
+msgstr ""
+
+#: plugin
+msgid "View page"
+msgstr "Ver página"
+
+#: plugin
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: plugin
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: plugin
+msgid "Restaurant name"
+msgstr "Nombre del restaurante"
+
+#: plugin
+msgid "Shown in the menu header. Leave empty to use the site title."
+msgstr ""
+
+#: plugin
+msgid "Menu language"
+msgstr ""
+
+#: plugin
+msgid "Site language"
+msgstr "Idioma del sitio"
+
+#: plugin
+msgid "English"
+msgstr "Inglés"
+
+#: plugin
+msgid "Spanish"
+msgstr "Español"
+
+#: plugin
+msgid "Applies to the public menu only. The admin keeps the site language."
+msgstr ""
+
+#: plugin
+msgid "Currency"
+msgstr "Moneda"
+
+#: plugin
+msgid "Money is stored in cents, so changing the currency does not convert existing prices."
+msgstr ""
+
+#: plugin
+msgid "Currency position"
+msgstr "Posición del símbolo"
+
+#: plugin
+msgid "Before the amount"
+msgstr ""
+
+#: plugin
+msgid "After the amount"
+msgstr ""
+
+#: plugin
+msgid "Decimals"
+msgstr "Decimales"
+
+#: plugin
+msgid "Most currencies use 2 decimals."
+msgstr ""
+
+#: plugin
+msgid "Thousands separator"
+msgstr ""
+
+#: plugin
+msgid "For example a comma: 1,250.00."
+msgstr ""
+
+#: plugin
+msgid "Decimal separator"
+msgstr "Separador decimal"
+
+#: plugin
+msgid "For example a dot: 12.50."
+msgstr ""
+
+#: plugin
+msgid "Public menu page"
+msgstr ""
+
+#: plugin
+msgid "No ordering page is linked yet. The plugin creates one when it is activated, or you can add the [wfo_menu] shortcode to any page."
+msgstr ""
+
+#: plugin
+msgid "Customers can collect their order at the restaurant."
+msgstr ""
+
+#: plugin
+msgid "Customers can ask for their order to be delivered."
+msgstr ""
+
+#: plugin
+msgid "Delivery fee"
+msgstr "Costo de envío"
+
+#: plugin
+msgid "Added to delivery orders. 0 = free delivery."
+msgstr ""
+
+#: plugin
+msgid "Free delivery over"
+msgstr "Envío gratis desde"
+
+#: plugin
+msgid "0 = disabled. Delivery becomes free from this subtotal."
+msgstr ""
+
+#: plugin
+msgid "Minimum order"
+msgstr "Pedido mínimo"
+
+#: plugin
+msgid "0 = no minimum. Orders below it cannot be sent."
+msgstr ""
+
+#: plugin
+msgid "Minimum order applies to"
+msgstr "El pedido mínimo aplica al"
+
+#: plugin
+msgid "Subtotal, before delivery"
+msgstr ""
+
+#: plugin
+msgid "Total, with delivery"
+msgstr ""
+
+#: plugin
+msgid "Delivery note"
+msgstr "Nota de envío"
+
+#: plugin
+msgid "Shown next to the delivery option, for example delivery areas or times."
+msgstr ""
+
+#: plugin
+msgid "Opening hours"
+msgstr "Horario"
+
+#: plugin
+msgid "Outside these hours the menu stays visible but orders are paused."
+msgstr ""
+
+#: plugin
+msgid "Add up to three time ranges per day. Leave a range empty when it does not apply. A closing time earlier than the opening time means the range ends after midnight."
+msgstr ""
+
+#: plugin
+msgid "Day"
+msgstr ""
+
+#: plugin
+msgid "Range 1"
+msgstr ""
+
+#: plugin
+msgid "Range 2"
+msgstr ""
+
+#: plugin
+msgid "Range 3"
+msgstr ""
+
+#: plugin
+msgid "%1$s, range %2$d, opening time"
+msgstr ""
+
+#: plugin
+msgid "%1$s, range %2$d, closing time"
+msgstr ""
+
+#: plugin
+msgid "Closed message"
+msgstr "Mensaje de cerrado"
+
+#: plugin
+msgid "Shown instead of the order form while the restaurant is closed. Leave empty for a friendly default."
+msgstr ""
+
+#: plugin
+msgid "Search box"
+msgstr ""
+
+#: plugin
+msgid "Show a search field above the menu."
+msgstr ""
+
+#: plugin
+msgid "Customers pay on delivery or pickup."
+msgstr ""
+
+#: plugin
+msgid "Customers see your bank details in the confirmation and send the transfer separately."
+msgstr ""
+
+#: plugin
+msgid "Bank details"
+msgstr "Datos bancarios"
+
+#: plugin
+msgid "Account holder, bank, account number or CLABE. Shown in the order confirmation."
+msgstr ""
+
+#: plugin
+msgid "Payment note"
+msgstr "Nota de pago"
+
+#: plugin
+msgid "Extra instructions shown next to the payment options."
+msgstr ""
+
+#: plugin
+msgid "WhatsApp number"
+msgstr "Número de WhatsApp"
+
+#: plugin
+msgid "International format, digits only. The number that receives the orders."
+msgstr ""
+
+#: plugin
+msgid "Second WhatsApp number"
+msgstr "Segundo número de WhatsApp"
+
+#: plugin
+msgid "Optional backup number."
+msgstr ""
+
+#: plugin
+msgid "Country code"
+msgstr "Código de país"
+
+#: plugin
+msgid "Used to expand local numbers, for example 52 for Mexico."
+msgstr ""
+
+#: plugin
+msgid "Order code prefix"
+msgstr ""
+
+#: plugin
+msgid "Order codes look like PREFIX-XXXXX."
+msgstr ""
+
+#: plugin
+msgid "This is the message prepared for the customer to send. Empty lines and empty tokens are removed automatically."
+msgstr ""
+
+#: plugin
+msgid "Available tokens"
+msgstr ""
+
+#: plugin
+msgid "Tokens are replaced with the order details. Unknown tokens are left as they are."
+msgstr ""
+
+#: plugin
+msgid "Notification email"
+msgstr "Correo de notificación"
+
+#: plugin
+msgid "New orders are emailed here. Leave empty to use the site admin email."
+msgstr ""
+
+#: plugin
+msgid "Save orders"
+msgstr "Guardar pedidos"
+
+#: plugin
+msgid "Keep a copy of every order under Food Orders → Orders. Turn off to use WhatsApp only."
+msgstr ""
+
+#: plugin
+msgid "Delete orders after"
+msgstr ""
+
+#: plugin
+msgid "Days. 0 = keep orders forever. Deletion runs daily and cannot be undone."
+msgstr ""
+
+#: plugin
+msgid "Accent colour"
+msgstr "Color de acento"
+
+#: plugin
+msgid "Used for buttons, prices, badges and highlights."
+msgstr ""
+
+#: plugin
+msgid "Corner radius"
+msgstr "Radio de esquinas"
+
+#: plugin
+msgid "Pixels, 0 to 40."
+msgstr ""
+
+#: plugin
+msgid "Dark mode"
+msgstr "Modo oscuro"
+
+#: plugin
+msgid "Follow the visitor’s device"
+msgstr ""
+
+#: plugin
+msgid "Always light"
+msgstr ""
+
+#: plugin
+msgid "Always dark"
+msgstr ""
+
+#: plugin
+msgid "Custom CSS"
+msgstr "CSS personalizado"
+
+#: plugin
+msgid "Added to the menu page only. Do not include <style> tags."
+msgstr ""
+
+#: plugin
+msgid "Styling reference"
+msgstr ""
+
+#: plugin
+msgid "CSS variables on the .wfo wrapper:"
+msgstr ""
+
+#: plugin
+msgid "Main classes:"
+msgstr ""
+
+#: plugin
+msgid "Extra option presets"
+msgstr ""
+
+#: plugin
+msgid "Build reusable groups such as \"Choose a size\" or \"Add extras\" once, then insert them into any menu item from the menu item editor."
+msgstr ""
+
+#: plugin
+msgid "Editing a preset does not change items that already use it."
+msgstr ""
+
+#: plugin
+msgid "Monday"
+msgstr "Lunes"
+
+#: plugin
+msgid "Tuesday"
+msgstr "Martes"
+
+#: plugin
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: plugin
+msgid "Thursday"
+msgstr "Jueves"
+
+#: plugin
+msgid "Friday"
+msgstr "Viernes"
+
+#: plugin
+msgid "Saturday"
+msgstr "Sábado"
+
+#: plugin
+msgid "Sunday"
+msgstr "Domingo"
+
+#: plugin
+msgid "Enabled"
+msgstr ""
+
+#: plugin
+msgid "WhatsApp number: not configured"
+msgstr ""
+
+#: plugin
+msgid "WhatsApp number: +%s"
+msgstr ""
+
+#: plugin
+msgid "Currency: %1$s (%2$s)"
+msgstr ""
+
+#: plugin
+msgid "%1$d item (%2$d available)"
+msgstr ""
+
+#: plugin
+msgid "Now: %s"
+msgstr ""
+
+#: plugin
+msgid "Last order: none"
+msgstr ""
+
+#: plugin
+msgid "Last order: unreadable"
+msgstr ""
+
+#: plugin
+msgid "Last order: %1$s · %2$s · %3$s"
+msgstr ""
+
+#: plugin
+msgid "Order pipeline loaded."
+msgstr ""
+
+#: plugin
+msgid "Unknown status. Use new, handled or all."
+msgstr ""
+
+#: plugin
+msgid "No orders found."
+msgstr ""
+
+#: plugin
+msgid "Please pass a positive number of days."
+msgstr ""
+
+#: plugin
+msgid "%d order deleted."
+msgstr ""
+
+#: plugin
+msgid "%1$s – %2$s"
+msgstr "%1$s – %2$s"
+
+#: plugin
+msgid "Closed"
+msgstr "Cerrado"
+
+#: plugin
+msgid "Open now"
+msgstr "Abierto ahora"
+
+#: plugin
+msgid "Open now · closes %s"
+msgstr "Abierto · cierra %s"
+
+#: plugin
+msgid "Closed · opens %s"
+msgstr "Cerrado · abre %s"
+
+#: plugin
+msgid "today at %s"
+msgstr "hoy a las %s"
+
+#: plugin
+msgid "tomorrow at %s"
+msgstr "mañana a las %s"
+
+#: plugin
+msgid "%1$s at %2$s"
+msgstr "%1$s a las %2$s"
+
+#: plugin
+msgid "Order Online"
+msgstr "Pedir en línea"
+
+#: plugin
+msgid "Add"
+msgstr "Agregar"
+
+#: plugin
+msgid "Add to order"
+msgstr "Agregar al pedido"
+
+#: plugin
+msgid "Update order"
+msgstr "Actualizar pedido"
+
+#: plugin
+msgid "Currently unavailable"
+msgstr "No disponible por ahora"
+
+#: plugin
+msgid "Choose"
+msgstr "Elige"
+
+#: plugin
+msgid "Optional"
+msgstr "Opcional"
+
+#: plugin
+msgid "up to %d"
+msgstr "hasta %d"
+
+#: plugin
+msgid "Special requests"
+msgstr "Indicaciones especiales"
+
+#: plugin
+msgid "No onions, extra spicy, allergies…"
+msgstr "Sin cebolla, extra picante, alergias…"
+
+#: plugin
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: plugin
+msgid "Free"
+msgstr "Gratis"
+
+#: plugin
+msgid "Your order"
+msgstr "Tu pedido"
+
+#: plugin
+msgid "Your order is empty."
+msgstr "Tu pedido está vacío."
+
+#: plugin
+msgid "Pick something from the menu to get started."
+msgstr "Elige algo del menú para empezar."
+
+#: plugin
+msgid "Keep browsing"
+msgstr "Seguir viendo"
+
+#: plugin
+msgid "Your details"
+msgstr "Tus datos"
+
+#: plugin
+msgid "Order type"
+msgstr "Tipo de pedido"
+
+#: plugin
+msgid "Street, number, floor, references"
+msgstr "Calle, número, piso, referencias"
+
+#: plugin
+msgid "Time"
+msgstr "Hora"
+
+#: plugin
+msgid "As soon as possible"
+msgstr "Lo antes posible"
+
+#: plugin
+msgid "Schedule"
+msgstr "Programar"
+
+#: plugin
+msgid "Note for the restaurant"
+msgstr "Nota para el restaurante"
+
+#: plugin
+msgid "Anything else we should know?"
+msgstr "¿Algo más que debamos saber?"
+
+#: plugin
+msgid "Pay on delivery or pickup."
+msgstr "Paga al recibir o al recoger."
+
+#: plugin
+msgid "We will send the account details on WhatsApp."
+msgstr "Te enviamos los datos de la cuenta por WhatsApp."
+
+#: plugin
+msgid "Add %s more to reach the minimum order."
+msgstr "Agrega %s más para llegar al pedido mínimo."
+
+#: plugin
+msgid "Send order on WhatsApp"
+msgstr "Enviar pedido por WhatsApp"
+
+#: plugin
+msgid "Sending…"
+msgstr "Enviando…"
+
+#: plugin
+msgid "WhatsApp opens with your order ready to send."
+msgstr "WhatsApp se abre con tu pedido listo para enviar."
+
+#: plugin
+msgid "Order ready"
+msgstr "Pedido listo"
+
+#: plugin
+msgid "Send the message in WhatsApp to confirm. We reply with the total and payment details."
+msgstr "Envía el mensaje en WhatsApp para confirmar. Te respondemos con el total y los datos de pago."
+
+#: plugin
+msgid "Order code"
+msgstr "Código de pedido"
+
+#: plugin
+msgid "Payment instructions"
+msgstr "Instrucciones de pago"
+
+#: plugin
+msgid "Copy order"
+msgstr "Copiar pedido"
+
+#: plugin
+msgid "Copied"
+msgstr "Copiado"
+
+#: plugin
+msgid "Close"
+msgstr "Cierra"
+
+#: plugin
+msgid "Edit"
+msgstr "Editar"
+
+#: plugin
+msgid "item"
+msgstr "artículo"
+
+#: plugin
+msgid "items"
+msgstr "artículos"
+
+#: plugin
+msgid "We are closed right now"
+msgstr "Estamos cerrados ahora"
+
+#: plugin
+msgid "You can browse the menu and send your order when we open."
+msgstr "Puedes ver el menú y enviar tu pedido cuando abramos."
+
+#: plugin
+msgid "Search"
+msgstr "Buscar"
+
+#: plugin
+msgid "Search the menu"
+msgstr "Buscar en el menú"
+
+#: plugin
+msgid "Nothing matches that search."
+msgstr "No hay resultados para esa búsqueda."
+
+#: plugin
+msgid "Please fill this in."
+msgstr "Completa este campo."
+
+#: plugin
+msgid "Enter a valid phone number."
+msgstr "Escribe un teléfono válido."
+
+#: plugin
+msgid "Choose how you would like to pay."
+msgstr "Elige cómo quieres pagar."
+
+#: plugin
+msgid "Choose pickup or delivery."
+msgstr "Elige recoger o envío."
+
+#: plugin
+msgid "We need an address for delivery."
+msgstr "Necesitamos una dirección para el envío."
+
+#: plugin
+msgid "Something went wrong. Please try again."
+msgstr "Algo salió mal. Inténtalo de nuevo."
+
+#: plugin
+msgid "We could not reach the server, but your order is ready in WhatsApp."
+msgstr "No pudimos conectar con el servidor, pero tu pedido está listo en WhatsApp."
+
+#: plugin
+msgid "Qty"
+msgstr "Cant."
+
+#: plugin
+msgid "Back to menu"
+msgstr "Volver al menú"
+
+#: plugin
+msgid "View order"
+msgstr "Ver pedido"
+
+#: plugin
+msgid "No account, no checkout. Your order is sent as a WhatsApp message."
+msgstr "Sin cuenta ni checkout. Tu pedido se envía como un mensaje de WhatsApp."
+
+#: plugin
+msgid "Free delivery over %s"
+msgstr "Envío gratis desde %s"
+
+#: plugin
+msgid "%s to go"
+msgstr "Faltan %s"
+
+#: plugin
+msgid "Options for %s"
+msgstr "Opciones de %s"
+
+#: plugin
+msgid "Free delivery"
+msgstr "Envío gratis"
+
+#: plugin
+msgid "Ordering is not available right now."
+msgstr "Los pedidos no están disponibles ahora."
+
+#: plugin
+msgid "WhatsApp number is not configured yet."
+msgstr "El número de WhatsApp aún no está configurado."
+
+#: plugin
+msgid "Call to order"
+msgstr "Llamar para pedir"
+
+#: plugin
+msgid "Add more items"
+msgstr "Agregar más"
+
+#: plugin
+msgid "Your total"
+msgstr "Tu total"
+
+#: plugin
+msgid "Today"
+msgstr "Hoy"
+
+#: plugin
+msgid "US Dollar"
+msgstr "Dólar estadounidense"
+
+#: plugin
+msgid "Euro"
+msgstr "Euro"
+
+#: plugin
+msgid "Mexican Peso"
+msgstr "Peso mexicano"
+
+#: plugin
+msgid "The order could not be read."
+msgstr "No se pudo leer el pedido."
+
+#: plugin
+msgid "The order code is not valid."
+msgstr "El código del pedido no es válido."
+
+#: plugin
+msgid "There are too many items in one order."
+msgstr "Hay demasiados artículos en un pedido."
+
+#: plugin
+msgid "Please enter your name."
+msgstr "Escribe tu nombre."
+
+#: plugin
+msgid "Please use a shorter name."
+msgstr "Usa un nombre más corto."
+
+#: plugin
+msgid "Please enter a valid phone number."
+msgstr "Escribe un teléfono válido."
+
+#: plugin
+msgid "Pickup is not available right now."
+msgstr "Recoger en el local no está disponible ahora."
+
+#: plugin
+msgid "Delivery is not available right now."
+msgstr "El envío no está disponible ahora."
+
+#: plugin
+msgid "Please use a shorter address."
+msgstr "Usa una dirección más corta."
+
+#: plugin
+msgid "Cash payment is not available right now."
+msgstr "El pago en efectivo no está disponible ahora."
+
+#: plugin
+msgid "Bank transfer is not available right now."
+msgstr "La transferencia no está disponible ahora."
+
+#: plugin
+msgid "Please shorten the note for the restaurant."
+msgstr "Acorta la nota para el restaurante."
+
+#: plugin
+msgid "Please choose a valid time."
+msgstr "Elige una hora válida."
+
+#: plugin
+msgid "The order message is too long."
+msgstr "El mensaje del pedido es demasiado largo."
+
+#: plugin
+msgid "One of the items in your order could not be read."
+msgstr "No se pudo leer uno de los artículos del pedido."
+
+#: plugin
+msgid "Each item needs a quantity between 1 and 99."
+msgstr "Cada artículo necesita una cantidad entre 1 y 99."
+
+#: plugin
+msgid "One of the items in your order is no longer on the menu."
+msgstr "Uno de los artículos ya no está en el menú."
+
+#: plugin
+msgid "“%s” is not available right now."
+msgstr "“%s” no está disponible ahora."
+
+#: plugin
+msgid "One of the selected options could not be read."
+msgstr "No se pudo leer una de las opciones elegidas."
+
+#: plugin
+msgid "Too many options were selected."
+msgstr "Se eligieron demasiadas opciones."
+
+#: plugin
+msgid "The options for “%s” changed. Please add it again."
+msgstr "Las opciones de “%s” cambiaron. Vuelve a agregarlo."
+
+#: plugin
+msgid "An option for “%s” is no longer available."
+msgstr "Una opción de “%s” ya no está disponible."
+
+#: plugin
+msgid "“%s” is sold out."
+msgstr "“%s” está agotado."
+
+#: plugin
+msgid "Choose an option for %s."
+msgstr "Elige una opción para %s."
+
+#: plugin
+msgid "Too many options selected for %s."
+msgstr "Demasiadas opciones para %s."
+
+#: plugin
+msgid "Please shorten the special requests."
+msgstr "Acorta las indicaciones especiales."
+
+#: plugin
+msgid "The minimum order is %s."
+msgstr "El pedido mínimo es %s."
+
+#: plugin
+msgid "We could not save your order. Please try again."
+msgstr "No pudimos guardar tu pedido. Inténtalo de nuevo."
+
+#: plugin
+msgid "[%1$s] New order %2$s"
+msgstr "[%1$s] Nuevo pedido %2$s"
+
+#: plugin
+msgid "New order %s"
+msgstr "Nuevo pedido %s"
+
+#: plugin
+msgid "%1$d × %2$s"
+msgstr "%1$d × %2$s"
+
+#: plugin
+msgid "Menu items"
+msgstr "Platillos"
+
+#: plugin
+msgid "Menu item"
+msgstr "Platillo"
+
+#: plugin
+msgid "Add menu item"
+msgstr "Agregar platillo"
+
+#: plugin
+msgid "Edit menu item"
+msgstr ""
+
+#: plugin
+msgid "New menu item"
+msgstr ""
+
+#: plugin
+msgid "View menu item"
+msgstr ""
+
+#: plugin
+msgid "View menu items"
+msgstr ""
+
+#: plugin
+msgid "Search menu items"
+msgstr ""
+
+#: plugin
+msgid "No menu items found."
+msgstr ""
+
+#: plugin
+msgid "No menu items found in Trash."
+msgstr ""
+
+#: plugin
+msgid "Menu item published."
+msgstr ""
+
+#: plugin
+msgid "Menu item updated."
+msgstr ""
+
+#: plugin
+msgid "Set photo"
+msgstr ""
+
+#: plugin
+msgid "Remove photo"
+msgstr ""
+
+#: plugin
+msgid "Use as photo"
+msgstr ""
+
+#: plugin
+msgid "Dishes and drinks shown on the ordering page."
+msgstr ""
+
+#: plugin
+msgid "Menu categories"
+msgstr "Categorías del menú"
+
+#: plugin
+msgid "Menu category"
+msgstr ""
+
+#: plugin
+msgid "Categories"
+msgstr "Categorías"
+
+#: plugin
+msgid "All categories"
+msgstr ""
+
+#: plugin
+msgid "Edit category"
+msgstr ""
+
+#: plugin
+msgid "View category"
+msgstr ""
+
+#: plugin
+msgid "Update category"
+msgstr ""
+
+#: plugin
+msgid "Add new category"
+msgstr ""
+
+#: plugin
+msgid "New category name"
+msgstr ""
+
+#: plugin
+msgid "Parent category"
+msgstr ""
+
+#: plugin
+msgid "Parent category:"
+msgstr ""
+
+#: plugin
+msgid "Search categories"
+msgstr ""
+
+#: plugin
+msgid "No categories found."
+msgstr ""
+
+#: plugin
+msgid "Back to categories"
+msgstr ""
+
+#: plugin
+msgid "Groups the menu into sections such as Burgers or Drinks."
+msgstr ""
+
+#: plugin
+msgid "Orders"
+msgstr "Pedidos"
+
+#: plugin
+msgid "Edit order"
+msgstr ""
+
+#: plugin
+msgid "Search orders"
+msgstr ""
+
+#: plugin
+msgid "No orders found in Trash."
+msgstr ""
+
+#: plugin
+msgid "Orders sent from the menu page, kept for the restaurant records."
+msgstr ""
+
+#: plugin
+msgid "Food Orders"
+msgstr "Pedidos de comida"
+
+#: plugin
+msgid "Dashboard"
+msgstr ""
+
+#: plugin
+msgid "Settings"
+msgstr "Ajustes"
+
+#: plugin
+msgid "Sorry, you are not allowed to view orders."
+msgstr ""
+
+#: plugin
+msgid "View menu page"
+msgstr ""
+
+#: plugin
+msgid "Recent orders"
+msgstr ""
+
+#: plugin
+msgid "View all orders"
+msgstr ""
+
+#: plugin
+msgid "No orders yet. Orders sent from your menu page show up here."
+msgstr ""
+
+#: plugin
+msgid "Open the menu page"
+msgstr ""
+
+#: plugin
+msgid "Finish setting up"
+msgstr ""
+
+#: plugin
+msgid "Set up your menu"
+msgstr ""
+
+#: plugin
+msgid "Done"
+msgstr ""
+
+#: plugin
+msgid "To do"
+msgstr ""
+
+#: plugin
+msgid "%s item published."
+msgstr ""
+
+#: plugin
+msgid "%s unpublished item waiting."
+msgstr ""
+
+#: plugin
+msgid "Add your first dish or drink."
+msgstr ""
+
+#: plugin
+msgid "%s category."
+msgstr ""
+
+#: plugin
+msgid "Categories become the sections of your menu."
+msgstr ""
+
+#: plugin
+msgid "Amounts use %1$s, for example %2$s."
+msgstr ""
+
+#: plugin
+msgid "WhatsApp number set"
+msgstr ""
+
+#: plugin
+msgid "Orders are sent to this number."
+msgstr ""
+
+#: plugin
+msgid "Add the number that receives orders."
+msgstr ""
+
+#: plugin
+msgid "Change"
+msgstr ""
+
+#: plugin
+msgid "Add number"
+msgstr ""
+
+#: plugin
+msgid "Currency set"
+msgstr ""
+
+#: plugin
+msgid "At least one menu item"
+msgstr ""
+
+#: plugin
+msgid "Manage items"
+msgstr ""
+
+#: plugin
+msgid "Add item"
+msgstr ""
+
+#: plugin
+msgid "At least one category"
+msgstr ""
+
+#: plugin
+msgid "Manage categories"
+msgstr ""
+
+#: plugin
+msgid "Add category"
+msgstr ""
+
+#: plugin
+msgid "The menu is being prepared. Please check back soon."
+msgstr "El menú se está preparando. Vuelve pronto."
+
+#: plugin
+msgid "Order code generated by the browser."
+msgstr "Código generado por el navegador."
+
+#: plugin
+msgid "Plain-text WhatsApp message shown to the restaurant."
+msgstr "Mensaje de WhatsApp en texto plano para el restaurante."
+
+#: plugin
+msgid "Two-letter order language."
+msgstr "Idioma del pedido (dos letras)."
+
+#: plugin
+msgid "Optional client total in minor units, used only to flag price drift."
+msgstr "Total del cliente en unidades menores, solo para detectar diferencias de precio."
+
+#: plugin
+msgid "Unix timestamp of when the form was rendered."
+msgstr "Momento en que se mostró el formulario."
+
+#: plugin
+msgid "Honeypot field; must stay empty."
+msgstr "Campo trampa; debe quedar vacío."
+
+#: plugin
+msgid "Order lines."
+msgstr "Líneas del pedido."
+
+#: plugin
+msgid "Only POST requests are accepted."
+msgstr "Solo se aceptan solicitudes POST."
+
+#: plugin
+msgid "Orders must be sent as application/json."
+msgstr "Los pedidos deben enviarse como application/json."
+
+#: plugin
+msgid "The order could not be processed."
+msgstr "No se pudo procesar el pedido."
+
+#: plugin
+msgid "The form expired. Please reload the page and try again."
+msgstr "El formulario caducó. Recarga la página e inténtalo de nuevo."
+
+#: plugin
+msgid "Too many order attempts. Please wait a few minutes and try again."
+msgstr "Demasiados intentos. Espera unos minutos e inténtalo de nuevo."
+
+#: plugin
+msgid "Food Ordering"
+msgstr ""
+
+#: plugin
+msgid "Food Menu & WhatsApp Order"
+msgstr ""
+
+#: plugin
+msgid "Menu"
+msgstr ""
+
+#: plugin
+msgid "Leave empty to show every category."
+msgstr ""
+
+#: plugin
+msgid "Layout"
+msgstr ""
+
+#: plugin
+msgid "Grid"
+msgstr ""
+
+#: plugin
+msgid "List"
+msgstr ""
+
+#: plugin
+msgid "Columns"
+msgstr ""
+
+#: plugin
+msgid "Show images"
+msgstr ""
+
+#: plugin
+msgid "Show descriptions"
+msgstr ""
+
+#: plugin
+msgid "Show category bar"
+msgstr ""
+
+#: plugin
+msgid "Show search"
+msgstr "Mostrar búsqueda"
+
+#: plugin
+msgid "Search must also be enabled under Food Orders → Settings."
+msgstr ""
+
+#: plugin
+msgid "Sticky cart"
+msgstr ""
+
+#: plugin
+msgid "Maximum items"
+msgstr ""
+
+#: plugin
+msgid "Use -1 to show every item."
+msgstr ""
+
+#: plugin
+msgid "Add your dishes under %s, then choose which categories to show here."
+msgstr ""
+
+#: plugin
+msgid "Food Orders → Menu Items"
+msgstr ""
+
+#: plugin
+msgid "Accent color"
+msgstr ""
+
+#: plugin
+msgid "Text color"
+msgstr ""
+
+#: plugin
+msgid "Muted text color"
+msgstr ""
+
+#: plugin
+msgid "Card background"
+msgstr ""
+
+#: plugin
+msgid "Card border color"
+msgstr ""
+
+#: plugin
+msgid "Button background"
+msgstr ""
+
+#: plugin
+msgid "Button text color"
+msgstr ""
+
+#: plugin
+msgid "Card gap"
+msgstr ""
+
+#: plugin
+msgid "Card padding"
+msgstr ""
+
+#: plugin
+msgid "Card border"
+msgstr ""
+
+#: plugin
+msgid "Card title"
+msgstr ""
+
+#: plugin
+msgid "Button"
+msgstr ""
+
+#: plugin
+msgid "Category bar"
+msgstr ""
+
+#: plugin
+msgid "Opens %s"
+msgstr "Abre %s"
+
+#: plugin
+msgid "Open WhatsApp again"
+msgstr "Abrir WhatsApp de nuevo"
+
+#: plugin
+msgid "Start a new order"
+msgstr "Empezar otro pedido"
+
+#: plugin
+msgid "Order options"
+msgstr "Opciones del pedido"
+
+#: plugin
+msgid "Add %s to order"
+msgstr "Agregar %s al pedido"
+
+#: plugin
+msgid "More"
+msgstr "Más"
+
+#: plugin
+msgid "This menu is interactive: enable JavaScript to choose extras and send your order. You can also message us directly on WhatsApp."
+msgstr "Este menú es interactivo: activa JavaScript para elegir extras y enviar tu pedido. También puedes escribirnos directo por WhatsApp."
+
+#: plugin
+msgid "Location"
+msgstr "Ubicación"
+
+#: plugin
+msgid "Optional: tap the map or drag the pin to your door."
+msgstr "Opcional: toca el mapa o arrastra el pin hasta tu puerta."
+
+#: plugin
+msgid "Use my location"
+msgstr "Usar mi ubicación"
+
+#: plugin
+msgid "Finding you…"
+msgstr "Buscando tu ubicación…"
+
+#: plugin
+msgid "We could not get your location. Place the pin by hand."
+msgstr "No pudimos obtener tu ubicación. Coloca el pin a mano."
+
+#: plugin
+msgid "Pin saved. We will send it with your order."
+msgstr "Listo, mandamos este punto con tu pedido."
+
+#: plugin
+msgid "Remove pin"
+msgstr "Quitar pin"
+
+#: plugin
+msgid "Map to mark your delivery location"
+msgstr "Mapa para marcar dónde entregamos"
+
+#: plugin
+msgid "Write your address or place the pin on the map."
+msgstr "Escribe tu dirección o coloca el pin en el mapa."
+
+#: plugin
+msgid "Selected by default"
+msgstr "Seleccionado por defecto"
+
+#: plugin
+msgid "The order type that is preselected in the cart. It is also shown first."
+msgstr "El tipo de pedido que aparece marcado en el carrito. También se muestra primero."
+
+#: plugin
+msgid "Google Maps API key"
+msgstr "Clave de API de Google Maps"
+
+#: plugin
+msgid "Optional. With a key, delivery customers can drop a pin on a map; the WhatsApp message then includes a Google Maps link. Enable the Maps JavaScript API and restrict the key to your website."
+msgstr "Opcional. Con una clave, quien pide a domicilio puede marcar su ubicación en un mapa y el mensaje de WhatsApp incluye el enlace de Google Maps. Activa la Maps JavaScript API y limita la clave a tu sitio web."
+
+#: plugin
+msgid "Map starts at"
+msgstr "El mapa empieza en"
+
+#: plugin
+msgid "Latitude,longitude where the map opens, usually your restaurant."
+msgstr "Latitud,longitud donde se abre el mapa, normalmente tu restaurante."
+
+msgid "Send the transfer to this account and share the receipt on WhatsApp."
+msgstr "Haz la transferencia a esta cuenta y mándanos el comprobante por WhatsApp."
+
+msgid "Note under the bank details"
+msgstr "Nota debajo de los datos bancarios"
+
+msgid "Highlighted under the bank details in the confirmation, for example that the delivery fee is paid in cash."
+msgstr "Se destaca debajo de los datos bancarios en la confirmación, por ejemplo que el envío se paga en efectivo."
+
+msgid "Delivery fee label"
+msgstr "Texto del costo de envío"
+
+msgid "Shown instead of \"Free\" when the delivery fee is 0, for example \"By zone, cash\"."
+msgstr "Se muestra en lugar de \"Gratis\" cuando el costo de envío es 0, por ejemplo \"Según zona, en efectivo\"."

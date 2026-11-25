@@ -1,0 +1,2093 @@
+# Copyright (C) 2026 Local Food Delivery
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WhatsApp Menu & Orders 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/whatsapp-menu-orders\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-19T21:52:43+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: whatsapp-menu-orders\n"
+
+#. Plugin Name of the plugin
+#: whatsapp-menu-orders.php
+msgid "WhatsApp Menu & Orders"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: whatsapp-menu-orders.php
+msgid "https://example.com/whatsapp-menu-orders"
+msgstr ""
+
+#. Description of the plugin
+#: whatsapp-menu-orders.php
+msgid "A one-page food menu with extras and per-item notes that sends the finished order to WhatsApp. No checkout, no payment gateway: cash or bank transfer, agreed in the chat."
+msgstr ""
+
+#. Author of the plugin
+#: whatsapp-menu-orders.php
+msgid "Local Food Delivery"
+msgstr ""
+
+#: includes/admin/class-category-meta.php:47
+#: includes/admin/class-category-meta.php:70
+#: includes/admin/class-menu-meta.php:172
+msgid "Spanish name"
+msgstr ""
+
+#: includes/admin/class-category-meta.php:49
+#: includes/admin/class-category-meta.php:73
+msgid "Shown instead of the name above when the interface language is Spanish."
+msgstr ""
+
+#: includes/admin/class-category-meta.php:52
+#: includes/admin/class-category-meta.php:77
+#: includes/admin/class-menu-meta.php:178
+msgid "Spanish description"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:50
+msgid "Menu item details"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:65
+#: includes/admin/class-menu-meta.php:375
+msgid "Default"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:66
+msgid "Hot / spicy"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:67
+#: includes/admin/class-orders-admin.php:283
+#: includes/admin/class-orders-admin.php:719
+msgid "New"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:68
+msgid "Vegetarian"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:124
+#: includes/admin/class-menu-meta.php:755
+#: includes/elementor/class-widget-menu.php:395
+msgid "Price"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:129
+msgid "Per unit. When a sale price is lower, the menu shows this price crossed out."
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:133
+msgid "Sale price"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:138
+msgid "0 = no sale. When lower than the price the menu shows the regular price crossed out."
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:146
+msgid "Available on the menu"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:148
+msgid "Turn off to hide a sold out item without deleting it."
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:152
+msgid "Badges"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:153
+msgid "Small labels shown on the menu card, for example \"Spicy\" or \"New\"."
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:162
+msgid "+ Add badge"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:174
+msgid "Optional. Used when the menu language is Spanish."
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:180
+msgid "Optional. Replaces the description when the menu language is Spanish."
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:187
+msgid "Extras and option groups"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:189
+msgid "Add groups such as Size, Extras or Drinks. Each group can be a single choice (radio) or several choices (checkboxes). Prices are added to the item price and may be negative."
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:191
+msgid "Min and max limit how many options a customer may pick. Max 0 means no limit."
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:196
+msgid "Insert preset"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:198
+msgid "Choose a saved preset…"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:203
+msgid "Manage presets"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:204
+msgid "Adds a copy of the preset to this item."
+msgstr ""
+
+#. translators: %s: settings screen URL.
+#: includes/admin/class-menu-meta.php:210
+#, php-format
+msgid "No saved presets yet. Create reusable groups under <a href=\"%s\">Settings → Extras</a>."
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:235
+msgid "Badge text"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:241
+#: includes/admin/class-menu-meta.php:383
+#: includes/class-menu-repository.php:497
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:260
+#: includes/admin/class-menu-meta.php:915
+#: includes/admin/class-settings-page.php:701
+msgid "No option groups yet."
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:269
+msgid "+ Add option group"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:297
+msgid "Option group"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:298
+msgid "Remove group"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:303
+msgid "Group label"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:304
+msgid "e.g. Choose a size"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:308
+msgid "Selection"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:310
+msgid "Several choices (checkboxes)"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:311
+msgid "One choice (radio)"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:317
+#: includes/class-menu-repository.php:450
+msgid "Required"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:321
+msgid "Min"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:326
+msgid "Max"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:328
+msgid "0 = no limit"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:339
+msgid "+ Add option"
+msgstr ""
+
+#. translators: %s: example amount with the currency symbol.
+#: includes/admin/class-menu-meta.php:344
+#, php-format
+msgid "Prices are added to the item price (e.g. -%s)."
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:366
+msgid "Option label"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:380
+#: includes/class-menu-repository.php:447
+#: templates/item-card.php:30
+msgid "Sold out"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:753
+msgid "Title"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:754
+#: includes/class-post-types.php:71
+msgid "Photo"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:756
+msgid "Category"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:757
+#: includes/admin/class-menu-meta.php:875
+msgid "Available"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:758
+#: includes/class-post-types.php:125
+msgid "Order"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:875
+msgid "Unavailable"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:883
+msgid "Drag to reorder"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:916
+msgid "Saving menu order…"
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:917
+msgid "Menu order saved."
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:918
+msgid "The menu order could not be saved. Reload the page and try again."
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:936
+msgid "Drag rows by the handle in the Order column to set the order items appear in your menu."
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:948
+msgid "Security check failed. Reload the page and try again."
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:952
+msgid "Sorry, you are not allowed to reorder menu items."
+msgstr ""
+
+#: includes/admin/class-menu-meta.php:966
+msgid "No menu items were sent."
+msgstr ""
+
+#: includes/admin/class-notices.php:54
+msgid "WhatsApp Menu & Orders:"
+msgstr ""
+
+#: includes/admin/class-notices.php:55
+msgid "Add the restaurant WhatsApp number so orders can be sent."
+msgstr ""
+
+#: includes/admin/class-notices.php:57
+msgid "Open settings"
+msgstr ""
+
+#: includes/admin/class-notices.php:64
+msgid "Elementor is not active. The [wfo_menu] shortcode works on any page, and the Elementor widget appears once Elementor is activated."
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:59
+#: includes/admin/class-orders-admin.php:578
+#: includes/class-cli.php:199
+#: includes/class-post-types.php:309
+msgid "Code"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:60
+msgid "Date / time"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:61
+#: includes/admin/class-orders-admin.php:244
+#: includes/class-cli.php:201
+#: includes/class-post-types.php:310
+msgid "Customer"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:62
+#: includes/admin/class-orders-admin.php:250
+#: includes/admin/class-orders-admin.php:584
+#: includes/class-menu-repository.php:467
+#: includes/class-order.php:840
+#: templates/order-form.php:80
+msgid "Phone"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:63
+#: includes/admin/class-orders-admin.php:277
+#: includes/admin/class-orders-admin.php:581
+msgid "Type"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:64
+#: includes/admin/class-orders-admin.php:278
+#: includes/admin/class-orders-admin.php:582
+#: includes/class-menu-repository.php:479
+#: includes/class-order.php:842
+#: templates/order-form.php:148
+msgid "Payment"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:65
+#: includes/admin/class-orders-admin.php:236
+#: includes/admin/class-orders-admin.php:589
+#: includes/class-cli.php:202
+#: includes/class-menu-repository.php:460
+#: includes/class-order.php:914
+#: includes/class-post-types.php:311
+#: templates/cart-drawer.php:72
+#: templates/confirmation.php:40
+#: templates/dialog.php:60
+msgid "Total"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:66
+#: includes/admin/class-orders-admin.php:281
+#: includes/admin/class-orders-admin.php:580
+#: includes/class-cli.php:203
+#: includes/class-post-types.php:312
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:113
+#: includes/admin/class-orders-admin.php:245
+#: includes/class-post-types.php:321
+msgid "Guest"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:156
+msgid "Order details"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:173
+msgid "No details were stored for this order."
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:216
+msgid "No items were stored for this order."
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:222
+#: includes/admin/class-orders-admin.php:587
+#: includes/class-menu-repository.php:457
+#: includes/class-order.php:912
+#: templates/cart-drawer.php:63
+msgid "Subtotal"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:226
+#: includes/admin/class-orders-admin.php:588
+#: includes/admin/class-orders-admin.php:735
+#: includes/admin/class-settings-page.php:293
+#: includes/class-menu-repository.php:458
+#: includes/class-menu-repository.php:470
+#: includes/class-order.php:826
+#: includes/class-order.php:913
+#: templates/cart-drawer.php:67
+#: templates/order-form.php:105
+msgid "Delivery"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:231
+#: includes/admin/class-orders-admin.php:738
+#: includes/admin/class-orders-admin.php:756
+msgid "—"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:257
+#: includes/admin/class-orders-admin.php:585
+#: includes/class-menu-repository.php:471
+#: includes/class-order.php:847
+#: templates/order-form.php:120
+msgid "Address"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:264
+#: includes/class-menu-repository.php:473
+#: includes/class-order.php:843
+#: templates/order-form.php:133
+msgid "When"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:271
+#: includes/admin/class-orders-admin.php:590
+#: includes/class-order.php:851
+msgid "Note"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:284
+#: includes/admin/class-orders-admin.php:713
+msgid "Handled"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:286
+msgid "Saves with the order."
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:291
+#: includes/admin/class-settings-page.php:503
+#: includes/class-order.php:917
+msgid "WhatsApp message"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:303
+msgid "Open in WhatsApp"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:355
+#: includes/admin/class-orders-admin.php:436
+msgid "Mark as handled"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:356
+#: includes/admin/class-orders-admin.php:436
+msgid "Mark as new"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:449
+msgid "No order was selected."
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:455
+msgid "Sorry, you are not allowed to update this order."
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:498
+msgid "No orders were updated."
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:505
+#, php-format
+msgid "%s order marked as handled."
+msgid_plural "%s orders marked as handled."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-orders-admin.php:511
+#, php-format
+msgid "%s order marked as new."
+msgid_plural "%s orders marked as new."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-orders-admin.php:537
+msgid "Export CSV"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:546
+msgid "Sorry, you are not allowed to export orders."
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:579
+#: includes/class-cli.php:200
+msgid "Created"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:583
+#: includes/class-menu-repository.php:466
+#: includes/class-order.php:839
+#: templates/order-form.php:68
+msgid "Name"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:586
+#: includes/class-order.php:874
+msgid "Items"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:591
+msgid "Message"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:731
+#: includes/admin/class-settings-page.php:287
+#: includes/class-menu-repository.php:469
+#: includes/class-order.php:827
+#: templates/order-form.php:99
+msgid "Pickup"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:749
+#: includes/admin/class-settings-page.php:421
+#: includes/class-menu-repository.php:480
+#: includes/class-order.php:831
+#: templates/order-form.php:30
+msgid "Cash"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:753
+#: includes/admin/class-settings-page.php:427
+#: includes/class-menu-repository.php:481
+#: includes/class-order.php:830
+#: templates/order-form.php:37
+msgid "Bank transfer"
+msgstr ""
+
+#: includes/admin/class-orders-admin.php:921
+msgid "Unknown item"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:42
+msgid "General"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:43
+msgid "Ordering"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:44
+msgid "Payments"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:45
+msgid "WhatsApp"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:46
+#: includes/elementor/class-widget-menu.php:234
+msgid "Design"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:47
+#: includes/class-post-types.php:200
+#: includes/class-post-types.php:201
+msgid "Extras"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:98
+#: includes/admin/class-settings-page.php:644
+msgid "Sorry, you are not allowed to manage these settings."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:106
+msgid "Food Orders settings"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:108
+#: includes/admin/class-settings-page.php:266
+msgid "View page"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:113
+msgid "Settings saved."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:138
+msgid "Save changes"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:197
+msgid "Restaurant name"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:199
+msgid "Shown in the menu header. Leave empty to use the site title."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:205
+msgid "Menu language"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:207
+msgid "Site language"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:208
+msgid "English"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:209
+msgid "Spanish"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:211
+msgid "Applies to the public menu only. The admin keeps the site language."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:216
+msgid "Currency"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:218
+msgid "Money is stored in cents, so changing the currency does not convert existing prices."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:223
+msgid "Currency position"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:225
+msgid "Before the amount"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:226
+msgid "After the amount"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:232
+msgid "Decimals"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:238
+msgid "Most currencies use 2 decimals."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:243
+msgid "Thousands separator"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:247
+msgid "For example a comma: 1,250.00."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:253
+msgid "Decimal separator"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:257
+msgid "For example a dot: 12.50."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:262
+msgid "Public menu page"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:268
+msgid "No ordering page is linked yet. The plugin creates one when it is activated, or you can add the [wfo_menu] shortcode to any page."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:288
+msgid "Customers can collect their order at the restaurant."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:294
+msgid "Customers can ask for their order to be delivered."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:299
+#: includes/class-menu-repository.php:526
+msgid "Delivery fee"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:300
+msgid "Added to delivery orders. 0 = free delivery."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:305
+msgid "Free delivery over"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:306
+msgid "0 = disabled. Delivery becomes free from this subtotal."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:311
+#: includes/class-menu-repository.php:484
+msgid "Minimum order"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:312
+msgid "0 = no minimum. Orders below it cannot be sent."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:317
+msgid "Minimum order applies to"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:319
+msgid "Subtotal, before delivery"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:320
+msgid "Total, with delivery"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:326
+msgid "Delivery note"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:329
+msgid "Shown next to the delivery option, for example delivery areas or times."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:335
+#: includes/admin/class-settings-page.php:342
+msgid "Opening hours"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:336
+msgid "Outside these hours the menu stays visible but orders are paused."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:344
+msgid "Add up to three time ranges per day. Leave a range empty when it does not apply. A closing time earlier than the opening time means the range ends after midnight."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:350
+msgid "Day"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:351
+msgid "Range 1"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:352
+msgid "Range 2"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:353
+msgid "Range 3"
+msgstr ""
+
+#. translators: 1: weekday, 2: range number.
+#: includes/admin/class-settings-page.php:373
+#, php-format
+msgid "%1$s, range %2$d, opening time"
+msgstr ""
+
+#. translators: 1: weekday, 2: range number.
+#: includes/admin/class-settings-page.php:375
+#, php-format
+msgid "%1$s, range %2$d, closing time"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:393
+msgid "Closed message"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:396
+msgid "Shown instead of the order form while the restaurant is closed. Leave empty for a friendly default."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:402
+msgid "Search box"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:403
+msgid "Show a search field above the menu."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:422
+msgid "Customers pay on delivery or pickup."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:428
+msgid "Customers see your bank details in the confirmation and send the transfer separately."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:433
+msgid "Bank details"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:437
+msgid "Account holder, bank, account number or CLABE. Shown in the order confirmation."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:443
+msgid "Payment note"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:446
+msgid "Extra instructions shown next to the payment options."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:465
+msgid "WhatsApp number"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:469
+msgid "International format, digits only. The number that receives the orders."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:475
+msgid "Second WhatsApp number"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:478
+msgid "Optional backup number."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:484
+msgid "Country code"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:487
+msgid "Used to expand local numbers, for example 52 for Mexico."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:493
+msgid "Order code prefix"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:497
+msgid "Order codes look like PREFIX-XXXXX."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:507
+msgid "This is the message prepared for the customer to send. Empty lines and empty tokens are removed automatically."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:512
+msgid "Available tokens"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:519
+msgid "Tokens are replaced with the order details. Unknown tokens are left as they are."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:525
+msgid "Notification email"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:528
+msgid "New orders are emailed here. Leave empty to use the site admin email."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:534
+msgid "Save orders"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:535
+msgid "Keep a copy of every order under Food Orders → Orders. Turn off to use WhatsApp only."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:540
+msgid "Delete orders after"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:546
+msgid "Days. 0 = keep orders forever. Deletion runs daily and cannot be undone."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:565
+msgid "Accent colour"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:568
+msgid "Used for buttons, prices, badges and highlights."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:574
+#: includes/elementor/class-widget-menu.php:319
+msgid "Corner radius"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:580
+msgid "Pixels, 0 to 40."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:586
+msgid "Dark mode"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:588
+msgid "Follow the visitor’s device"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:589
+msgid "Always light"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:590
+msgid "Always dark"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:596
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:600
+msgid "Added to the menu page only. Do not include <style> tags."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:605
+msgid "Styling reference"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:608
+msgid "CSS variables on the .wfo wrapper:"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:612
+msgid "Main classes:"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:629
+msgid "Extra option presets"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:631
+msgid "Build reusable groups such as \"Choose a size\" or \"Add extras\" once, then insert them into any menu item from the menu item editor."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:632
+msgid "Editing a preset does not change items that already use it."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:714
+#: includes/class-hours.php:454
+msgid "Monday"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:715
+#: includes/class-hours.php:455
+msgid "Tuesday"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:716
+#: includes/class-hours.php:456
+msgid "Wednesday"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:717
+#: includes/class-hours.php:457
+msgid "Thursday"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:718
+#: includes/class-hours.php:458
+msgid "Friday"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:719
+#: includes/class-hours.php:459
+msgid "Saturday"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:720
+#: includes/class-hours.php:460
+msgid "Sunday"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:837
+msgid "Enabled"
+msgstr ""
+
+#: includes/class-cli.php:51
+msgid "WhatsApp number: not configured"
+msgstr ""
+
+#. translators: %s: normalized WhatsApp number, e.g. +525512345678.
+#: includes/class-cli.php:56
+#, php-format
+msgid "WhatsApp number: +%s"
+msgstr ""
+
+#. translators: 1: currency code, 2: currency label.
+#: includes/class-cli.php:69
+#, php-format
+msgid "Currency: %1$s (%2$s)"
+msgstr ""
+
+#. translators: 1: number of published items, 2: number of items available for ordering.
+#: includes/class-cli.php:90
+#, php-format
+msgid "%1$d item (%2$d available)"
+msgid_plural "%1$d items (%2$d available)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: opening state label, e.g. "Open now · closes 22:00".
+#: includes/class-cli.php:101
+#, php-format
+msgid "Now: %s"
+msgstr ""
+
+#: includes/class-cli.php:119
+msgid "Last order: none"
+msgstr ""
+
+#: includes/class-cli.php:124
+msgid "Last order: unreadable"
+msgstr ""
+
+#. translators: 1: order code, 2: creation date, 3: order total.
+#: includes/class-cli.php:129
+#, php-format
+msgid "Last order: %1$s · %2$s · %3$s"
+msgstr ""
+
+#: includes/class-cli.php:138
+msgid "Order pipeline loaded."
+msgstr ""
+
+#: includes/class-cli.php:173
+msgid "Unknown status. Use new, handled or all."
+msgstr ""
+
+#: includes/class-cli.php:226
+#: includes/class-post-types.php:131
+msgid "No orders found."
+msgstr ""
+
+#: includes/class-cli.php:257
+msgid "Please pass a positive number of days."
+msgstr ""
+
+#. translators: %d: number of deleted orders.
+#: includes/class-cli.php:265
+#, php-format
+msgid "%d order deleted."
+msgid_plural "%d orders deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: opening time (H:i), 2: closing time (H:i).
+#: includes/class-hours.php:97
+#, php-format
+msgid "%1$s – %2$s"
+msgstr ""
+
+#: includes/class-hours.php:111
+#: includes/class-hours.php:259
+#: includes/class-menu-repository.php:522
+msgid "Closed"
+msgstr ""
+
+#: includes/class-hours.php:236
+#: includes/class-hours.php:248
+#: includes/class-menu-repository.php:521
+msgid "Open now"
+msgstr ""
+
+#. translators: %s: closing time, e.g. 22:00.
+#: includes/class-hours.php:243
+#, php-format
+msgid "Open now · closes %s"
+msgstr ""
+
+#. translators: %s: next opening, e.g. "tomorrow at 11:00".
+#: includes/class-hours.php:254
+#, php-format
+msgid "Closed · opens %s"
+msgstr ""
+
+#. translators: %s: time, e.g. 18:00.
+#: includes/class-hours.php:277
+#, php-format
+msgid "today at %s"
+msgstr ""
+
+#. translators: %s: time, e.g. 11:00.
+#: includes/class-hours.php:285
+#, php-format
+msgid "tomorrow at %s"
+msgstr ""
+
+#. translators: 1: weekday name, 2: time, e.g. "Monday at 11:00".
+#: includes/class-hours.php:292
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: includes/class-install.php:58
+msgid "Order Online"
+msgstr ""
+
+#: includes/class-menu-repository.php:444
+msgid "Add"
+msgstr ""
+
+#: includes/class-menu-repository.php:445
+#: templates/dialog.php:87
+msgid "Add to order"
+msgstr ""
+
+#: includes/class-menu-repository.php:446
+msgid "Update order"
+msgstr ""
+
+#: includes/class-menu-repository.php:448
+msgid "Currently unavailable"
+msgstr ""
+
+#: includes/class-menu-repository.php:449
+msgid "Choose"
+msgstr ""
+
+#: includes/class-menu-repository.php:451
+msgid "Optional"
+msgstr ""
+
+#. translators: %d: maximum number of options a customer may pick in a group.
+#: includes/class-menu-repository.php:453
+#, php-format
+msgid "up to %d"
+msgstr ""
+
+#: includes/class-menu-repository.php:454
+#: templates/dialog.php:48
+msgid "Special requests"
+msgstr ""
+
+#: includes/class-menu-repository.php:455
+msgid "No onions, extra spicy, allergies…"
+msgstr ""
+
+#: includes/class-menu-repository.php:456
+#: templates/dialog.php:65
+#: templates/dialog.php:66
+#: templates/dialog.php:78
+#: templates/dialog.php:79
+msgid "Quantity"
+msgstr ""
+
+#: includes/class-menu-repository.php:459
+msgid "Free"
+msgstr ""
+
+#: includes/class-menu-repository.php:461
+#: includes/class-menu-repository.php:525
+#: templates/cart-drawer.php:37
+#: templates/confirmation.php:30
+msgid "Your order"
+msgstr ""
+
+#: includes/class-menu-repository.php:462
+#: includes/class-order.php:75
+#: templates/cart-drawer.php:54
+msgid "Your order is empty."
+msgstr ""
+
+#: includes/class-menu-repository.php:463
+msgid "Pick something from the menu to get started."
+msgstr ""
+
+#: includes/class-menu-repository.php:464
+#: templates/cart-drawer.php:56
+msgid "Keep browsing"
+msgstr ""
+
+#: includes/class-menu-repository.php:465
+#: templates/order-form.php:65
+msgid "Your details"
+msgstr ""
+
+#: includes/class-menu-repository.php:468
+#: includes/class-order.php:841
+#: templates/order-form.php:94
+msgid "Order type"
+msgstr ""
+
+#: includes/class-menu-repository.php:472
+msgid "Street, number, floor, references"
+msgstr ""
+
+#: includes/class-menu-repository.php:474
+msgid "Time"
+msgstr ""
+
+#: includes/class-menu-repository.php:475
+#: includes/class-order.php:834
+#: templates/order-form.php:135
+msgid "As soon as possible"
+msgstr ""
+
+#: includes/class-menu-repository.php:476
+#: templates/order-form.php:137
+msgid "Schedule"
+msgstr ""
+
+#: includes/class-menu-repository.php:477
+#: templates/order-form.php:171
+msgid "Note for the restaurant"
+msgstr ""
+
+#: includes/class-menu-repository.php:478
+msgid "Anything else we should know?"
+msgstr ""
+
+#: includes/class-menu-repository.php:482
+#: templates/order-form.php:31
+msgid "Pay on delivery or pickup."
+msgstr ""
+
+#: includes/class-menu-repository.php:483
+#: templates/order-form.php:38
+msgid "We will send the account details on WhatsApp."
+msgstr ""
+
+#. translators: %s: remaining amount, formatted with currency.
+#: includes/class-menu-repository.php:486
+#, php-format
+msgid "Add %s more to reach the minimum order."
+msgstr ""
+
+#: includes/class-menu-repository.php:487
+#: templates/cart-drawer.php:93
+msgid "Send order on WhatsApp"
+msgstr ""
+
+#: includes/class-menu-repository.php:488
+msgid "Sending…"
+msgstr ""
+
+#: includes/class-menu-repository.php:489
+msgid "WhatsApp opens with your order ready to send."
+msgstr ""
+
+#: includes/class-menu-repository.php:490
+#: templates/confirmation.php:31
+msgid "Order ready"
+msgstr ""
+
+#: includes/class-menu-repository.php:491
+msgid "Send the message in WhatsApp to confirm. We reply with the total and payment details."
+msgstr ""
+
+#: includes/class-menu-repository.php:492
+#: includes/class-order.php:838
+#: templates/confirmation.php:35
+msgid "Order code"
+msgstr ""
+
+#: includes/class-menu-repository.php:493
+msgid "Payment instructions"
+msgstr ""
+
+#: includes/class-menu-repository.php:494
+#: templates/confirmation.php:59
+msgid "Copy order"
+msgstr ""
+
+#: includes/class-menu-repository.php:495
+msgid "Copied"
+msgstr ""
+
+#: includes/class-menu-repository.php:496
+#: templates/cart-drawer.php:40
+#: templates/dialog.php:19
+#: templates/menu.php:142
+msgid "Close"
+msgstr ""
+
+#: includes/class-menu-repository.php:498
+msgid "Edit"
+msgstr ""
+
+#: includes/class-menu-repository.php:499
+msgid "item"
+msgstr ""
+
+#: includes/class-menu-repository.php:500
+msgid "items"
+msgstr ""
+
+#: includes/class-menu-repository.php:501
+#: templates/closed.php:19
+msgid "We are closed right now"
+msgstr ""
+
+#: includes/class-menu-repository.php:502
+msgid "You can browse the menu and send your order when we open."
+msgstr ""
+
+#: includes/class-menu-repository.php:503
+#: templates/menu.php:128
+msgid "Search"
+msgstr ""
+
+#: includes/class-menu-repository.php:504
+#: templates/menu.php:138
+msgid "Search the menu"
+msgstr ""
+
+#: includes/class-menu-repository.php:505
+#: templates/menu.php:191
+msgid "Nothing matches that search."
+msgstr ""
+
+#: includes/class-menu-repository.php:506
+msgid "Please fill this in."
+msgstr ""
+
+#: includes/class-menu-repository.php:507
+msgid "Enter a valid phone number."
+msgstr ""
+
+#: includes/class-menu-repository.php:508
+#: includes/class-order.php:133
+#: templates/order-form.php:163
+msgid "Choose how you would like to pay."
+msgstr ""
+
+#: includes/class-menu-repository.php:509
+#: includes/class-order.php:109
+msgid "Choose pickup or delivery."
+msgstr ""
+
+#: includes/class-menu-repository.php:510
+#: includes/class-order.php:127
+msgid "We need an address for delivery."
+msgstr ""
+
+#: includes/class-menu-repository.php:511
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: includes/class-menu-repository.php:512
+msgid "We could not reach the server, but your order is ready in WhatsApp."
+msgstr ""
+
+#: includes/class-menu-repository.php:513
+msgid "Qty"
+msgstr ""
+
+#: includes/class-menu-repository.php:514
+msgid "Back to menu"
+msgstr ""
+
+#: includes/class-menu-repository.php:515
+#: includes/class-post-types.php:129
+#: templates/menu.php:201
+msgid "View order"
+msgstr ""
+
+#: includes/class-menu-repository.php:516
+msgid "No account, no checkout. Your order is sent as a WhatsApp message."
+msgstr ""
+
+#. translators: %s: order subtotal, formatted with currency.
+#: includes/class-menu-repository.php:518
+#, php-format
+msgid "Free delivery over %s"
+msgstr ""
+
+#. translators: %s: remaining amount, formatted with currency.
+#: includes/class-menu-repository.php:520
+#, php-format
+msgid "%s to go"
+msgstr ""
+
+#. translators: %s: menu item name.
+#: includes/class-menu-repository.php:524
+#, php-format
+msgid "Options for %s"
+msgstr ""
+
+#: includes/class-menu-repository.php:527
+msgid "Free delivery"
+msgstr ""
+
+#: includes/class-menu-repository.php:528
+#: templates/order-form.php:112
+msgid "Ordering is not available right now."
+msgstr ""
+
+#: includes/class-menu-repository.php:529
+#: templates/cart-drawer.php:83
+msgid "WhatsApp number is not configured yet."
+msgstr ""
+
+#: includes/class-menu-repository.php:530
+msgid "Call to order"
+msgstr ""
+
+#: includes/class-menu-repository.php:531
+msgid "Add more items"
+msgstr ""
+
+#: includes/class-menu-repository.php:532
+msgid "Your total"
+msgstr ""
+
+#: includes/class-menu-repository.php:533
+msgid "Today"
+msgstr ""
+
+#: includes/class-money.php:25
+msgid "US Dollar"
+msgstr ""
+
+#: includes/class-money.php:29
+msgid "Euro"
+msgstr ""
+
+#: includes/class-money.php:33
+msgid "Mexican Peso"
+msgstr ""
+
+#: includes/class-order.php:59
+#: includes/class-rest.php:188
+msgid "The order could not be read."
+msgstr ""
+
+#: includes/class-order.php:68
+msgid "The order code is not valid."
+msgstr ""
+
+#: includes/class-order.php:79
+msgid "There are too many items in one order."
+msgstr ""
+
+#: includes/class-order.php:92
+msgid "Please enter your name."
+msgstr ""
+
+#: includes/class-order.php:96
+msgid "Please use a shorter name."
+msgstr ""
+
+#: includes/class-order.php:103
+msgid "Please enter a valid phone number."
+msgstr ""
+
+#: includes/class-order.php:113
+msgid "Pickup is not available right now."
+msgstr ""
+
+#: includes/class-order.php:117
+msgid "Delivery is not available right now."
+msgstr ""
+
+#: includes/class-order.php:123
+msgid "Please use a shorter address."
+msgstr ""
+
+#: includes/class-order.php:137
+msgid "Cash payment is not available right now."
+msgstr ""
+
+#: includes/class-order.php:141
+msgid "Bank transfer is not available right now."
+msgstr ""
+
+#: includes/class-order.php:147
+msgid "Please shorten the note for the restaurant."
+msgstr ""
+
+#: includes/class-order.php:157
+msgid "Please choose a valid time."
+msgstr ""
+
+#: includes/class-order.php:163
+msgid "The order message is too long."
+msgstr ""
+
+#: includes/class-order.php:178
+#: includes/class-order.php:184
+msgid "One of the items in your order could not be read."
+msgstr ""
+
+#: includes/class-order.php:190
+msgid "Each item needs a quantity between 1 and 99."
+msgstr ""
+
+#: includes/class-order.php:198
+msgid "One of the items in your order is no longer on the menu."
+msgstr ""
+
+#. translators: %s: item name.
+#: includes/class-order.php:210
+#, php-format
+msgid "“%s” is not available right now."
+msgstr ""
+
+#: includes/class-order.php:248
+#: includes/class-order.php:261
+#: includes/class-order.php:273
+#: includes/class-order.php:280
+msgid "One of the selected options could not be read."
+msgstr ""
+
+#: includes/class-order.php:252
+msgid "Too many options were selected."
+msgstr ""
+
+#. translators: %s: item name.
+#: includes/class-order.php:292
+#, php-format
+msgid "The options for “%s” changed. Please add it again."
+msgstr ""
+
+#. translators: %s: item name.
+#: includes/class-order.php:304
+#, php-format
+msgid "An option for “%s” is no longer available."
+msgstr ""
+
+#. translators: %s: option label.
+#: includes/class-order.php:318
+#, php-format
+msgid "“%s” is sold out."
+msgstr ""
+
+#. translators: %s: option group label, e.g. "Size".
+#: includes/class-order.php:357
+#, php-format
+msgid "Choose an option for %s."
+msgstr ""
+
+#. translators: %s: option group label, e.g. "Extras".
+#: includes/class-order.php:368
+#, php-format
+msgid "Too many options selected for %s."
+msgstr ""
+
+#: includes/class-order.php:378
+msgid "Please shorten the special requests."
+msgstr ""
+
+#. translators: %s: formatted minimum order amount.
+#: includes/class-order.php:423
+#, php-format
+msgid "The minimum order is %s."
+msgstr ""
+
+#: includes/class-order.php:484
+msgid "We could not save your order. Please try again."
+msgstr ""
+
+#. translators: 1: restaurant or site name, 2: order code.
+#: includes/class-order.php:799
+#, php-format
+msgid "[%1$s] New order %2$s"
+msgstr ""
+
+#. translators: %s: order code.
+#: includes/class-order.php:858
+#, php-format
+msgid "New order %s"
+msgstr ""
+
+#. translators: 1: quantity, 2: item name.
+#: includes/class-order.php:882
+#, php-format
+msgid "%1$d × %2$s"
+msgstr ""
+
+#: includes/class-post-types.php:56
+#: includes/class-post-types.php:58
+#: includes/class-post-types.php:59
+msgid "Menu items"
+msgstr ""
+
+#: includes/class-post-types.php:57
+msgid "Menu item"
+msgstr ""
+
+#: includes/class-post-types.php:60
+#: includes/class-post-types.php:61
+#: includes/class-post-types.php:295
+msgid "Add menu item"
+msgstr ""
+
+#: includes/class-post-types.php:62
+msgid "Edit menu item"
+msgstr ""
+
+#: includes/class-post-types.php:63
+msgid "New menu item"
+msgstr ""
+
+#: includes/class-post-types.php:64
+msgid "View menu item"
+msgstr ""
+
+#: includes/class-post-types.php:65
+msgid "View menu items"
+msgstr ""
+
+#: includes/class-post-types.php:66
+msgid "Search menu items"
+msgstr ""
+
+#: includes/class-post-types.php:67
+msgid "No menu items found."
+msgstr ""
+
+#: includes/class-post-types.php:68
+msgid "No menu items found in Trash."
+msgstr ""
+
+#: includes/class-post-types.php:69
+msgid "Menu item published."
+msgstr ""
+
+#: includes/class-post-types.php:70
+msgid "Menu item updated."
+msgstr ""
+
+#: includes/class-post-types.php:72
+msgid "Set photo"
+msgstr ""
+
+#: includes/class-post-types.php:73
+msgid "Remove photo"
+msgstr ""
+
+#: includes/class-post-types.php:74
+msgid "Use as photo"
+msgstr ""
+
+#: includes/class-post-types.php:76
+msgid "Dishes and drinks shown on the ordering page."
+msgstr ""
+
+#: includes/class-post-types.php:95
+#: templates/menu.php:153
+msgid "Menu categories"
+msgstr ""
+
+#: includes/class-post-types.php:96
+msgid "Menu category"
+msgstr ""
+
+#: includes/class-post-types.php:97
+#: includes/class-post-types.php:226
+#: includes/elementor/class-widget-menu.php:113
+msgid "Categories"
+msgstr ""
+
+#: includes/class-post-types.php:98
+msgid "All categories"
+msgstr ""
+
+#: includes/class-post-types.php:99
+msgid "Edit category"
+msgstr ""
+
+#: includes/class-post-types.php:100
+msgid "View category"
+msgstr ""
+
+#: includes/class-post-types.php:101
+msgid "Update category"
+msgstr ""
+
+#: includes/class-post-types.php:102
+msgid "Add new category"
+msgstr ""
+
+#: includes/class-post-types.php:103
+msgid "New category name"
+msgstr ""
+
+#: includes/class-post-types.php:104
+msgid "Parent category"
+msgstr ""
+
+#: includes/class-post-types.php:105
+msgid "Parent category:"
+msgstr ""
+
+#: includes/class-post-types.php:106
+msgid "Search categories"
+msgstr ""
+
+#: includes/class-post-types.php:107
+msgid "No categories found."
+msgstr ""
+
+#: includes/class-post-types.php:108
+msgid "Back to categories"
+msgstr ""
+
+#: includes/class-post-types.php:110
+msgid "Groups the menu into sections such as Burgers or Drinks."
+msgstr ""
+
+#: includes/class-post-types.php:124
+#: includes/class-post-types.php:126
+#: includes/class-post-types.php:127
+msgid "Orders"
+msgstr ""
+
+#: includes/class-post-types.php:128
+msgid "Edit order"
+msgstr ""
+
+#: includes/class-post-types.php:130
+msgid "Search orders"
+msgstr ""
+
+#: includes/class-post-types.php:132
+msgid "No orders found in Trash."
+msgstr ""
+
+#: includes/class-post-types.php:134
+msgid "Orders sent from the menu page, kept for the restaurant records."
+msgstr ""
+
+#: includes/class-post-types.php:158
+#: includes/class-post-types.php:159
+#: includes/class-post-types.php:294
+msgid "Food Orders"
+msgstr ""
+
+#: includes/class-post-types.php:174
+#: includes/class-post-types.php:177
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-post-types.php:191
+#: includes/class-post-types.php:192
+#: includes/class-post-types.php:247
+msgid "Settings"
+msgstr ""
+
+#: includes/class-post-types.php:273
+msgid "Sorry, you are not allowed to view orders."
+msgstr ""
+
+#: includes/class-post-types.php:297
+msgid "View menu page"
+msgstr ""
+
+#: includes/class-post-types.php:303
+msgid "Recent orders"
+msgstr ""
+
+#: includes/class-post-types.php:338
+msgid "View all orders"
+msgstr ""
+
+#: includes/class-post-types.php:341
+msgid "No orders yet. Orders sent from your menu page show up here."
+msgstr ""
+
+#: includes/class-post-types.php:344
+msgid "Open the menu page"
+msgstr ""
+
+#: includes/class-post-types.php:346
+msgid "Finish setting up"
+msgstr ""
+
+#: includes/class-post-types.php:355
+msgid "Set up your menu"
+msgstr ""
+
+#: includes/class-post-types.php:361
+msgid "Done"
+msgstr ""
+
+#: includes/class-post-types.php:361
+msgid "To do"
+msgstr ""
+
+#. translators: %s: number of published menu items.
+#: includes/class-post-types.php:406
+#, php-format
+msgid "%s item published."
+msgid_plural "%s items published."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: number of unpublished menu items.
+#: includes/class-post-types.php:409
+#, php-format
+msgid "%s unpublished item waiting."
+msgid_plural "%s unpublished items waiting."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-post-types.php:411
+msgid "Add your first dish or drink."
+msgstr ""
+
+#. translators: %s: number of menu categories.
+#: includes/class-post-types.php:416
+#, php-format
+msgid "%s category."
+msgid_plural "%s categories."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-post-types.php:418
+msgid "Categories become the sections of your menu."
+msgstr ""
+
+#. translators: 1: currency code, 2: example amount.
+#: includes/class-post-types.php:422
+#, php-format
+msgid "Amounts use %1$s, for example %2$s."
+msgstr ""
+
+#: includes/class-post-types.php:427
+msgid "WhatsApp number set"
+msgstr ""
+
+#: includes/class-post-types.php:428
+msgid "Orders are sent to this number."
+msgstr ""
+
+#: includes/class-post-types.php:428
+msgid "Add the number that receives orders."
+msgstr ""
+
+#: includes/class-post-types.php:430
+#: includes/class-post-types.php:437
+msgid "Change"
+msgstr ""
+
+#: includes/class-post-types.php:430
+msgid "Add number"
+msgstr ""
+
+#: includes/class-post-types.php:434
+msgid "Currency set"
+msgstr ""
+
+#: includes/class-post-types.php:441
+msgid "At least one menu item"
+msgstr ""
+
+#: includes/class-post-types.php:444
+msgid "Manage items"
+msgstr ""
+
+#: includes/class-post-types.php:444
+msgid "Add item"
+msgstr ""
+
+#: includes/class-post-types.php:448
+msgid "At least one category"
+msgstr ""
+
+#: includes/class-post-types.php:451
+msgid "Manage categories"
+msgstr ""
+
+#: includes/class-post-types.php:451
+msgid "Add category"
+msgstr ""
+
+#: includes/class-render.php:79
+#: templates/menu.php:187
+msgid "The menu is being prepared. Please check back soon."
+msgstr ""
+
+#: includes/class-rest.php:70
+msgid "Order code generated by the browser."
+msgstr ""
+
+#: includes/class-rest.php:76
+msgid "Plain-text WhatsApp message shown to the restaurant."
+msgstr ""
+
+#: includes/class-rest.php:81
+msgid "Two-letter order language."
+msgstr ""
+
+#: includes/class-rest.php:86
+msgid "Optional client total in minor units, used only to flag price drift."
+msgstr ""
+
+#: includes/class-rest.php:91
+msgid "Unix timestamp of when the form was rendered."
+msgstr ""
+
+#: includes/class-rest.php:97
+msgid "Honeypot field; must stay empty."
+msgstr ""
+
+#: includes/class-rest.php:102
+msgid "Order lines."
+msgstr ""
+
+#: includes/class-rest.php:231
+msgid "Only POST requests are accepted."
+msgstr ""
+
+#: includes/class-rest.php:238
+msgid "Orders must be sent as application/json."
+msgstr ""
+
+#: includes/class-rest.php:257
+msgid "The order could not be processed."
+msgstr ""
+
+#: includes/class-rest.php:264
+msgid "The form expired. Please reload the page and try again."
+msgstr ""
+
+#: includes/class-rest.php:303
+msgid "Too many order attempts. Please wait a few minutes and try again."
+msgstr ""
+
+#: includes/elementor/class-manager.php:72
+msgid "Food Ordering"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:42
+msgid "Food Menu & WhatsApp Order"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:105
+msgid "Menu"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:118
+msgid "Leave empty to show every category."
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:125
+msgid "Layout"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:129
+msgid "Grid"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:130
+msgid "List"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:138
+msgid "Columns"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:156
+msgid "Show images"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:165
+msgid "Show descriptions"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:174
+msgid "Show category bar"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:183
+msgid "Show search"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:186
+msgid "Search must also be enabled under Food Orders → Settings."
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:193
+msgid "Sticky cart"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:202
+msgid "Maximum items"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:207
+msgid "Use -1 to show every item."
+msgstr ""
+
+#. translators: %s: link to the menu items screen in the WordPress admin.
+#: includes/elementor/class-widget-menu.php:217
+#, php-format
+msgid "Add your dishes under %s, then choose which categories to show here."
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:218
+msgid "Food Orders → Menu Items"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:242
+msgid "Accent color"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:253
+msgid "Text color"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:264
+msgid "Muted text color"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:275
+msgid "Card background"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:286
+msgid "Card border color"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:297
+msgid "Button background"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:308
+msgid "Button text color"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:338
+msgid "Card gap"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:357
+msgid "Card padding"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:377
+msgid "Card border"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:386
+msgid "Card title"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:404
+msgid "Button"
+msgstr ""
+
+#: includes/elementor/class-widget-menu.php:413
+msgid "Category bar"
+msgstr ""
+
+#. translators: %s: human readable next opening time.
+#: templates/closed.php:31
+#, php-format
+msgid "Opens %s"
+msgstr ""
+
+#: templates/confirmation.php:55
+msgid "Open WhatsApp again"
+msgstr ""
+
+#: templates/confirmation.php:60
+msgid "Start a new order"
+msgstr ""
+
+#: templates/dialog.php:28
+msgid "Order options"
+msgstr ""
+
+#. translators: %s: menu item name.
+#: templates/item-card.php:42
+#, php-format
+msgid "Add %s to order"
+msgstr ""
+
+#: templates/menu.php:99
+msgid "More"
+msgstr ""
+
+#: templates/menu.php:213
+msgid "This menu is interactive: enable JavaScript to choose extras and send your order. You can also message us directly on WhatsApp."
+msgstr ""
